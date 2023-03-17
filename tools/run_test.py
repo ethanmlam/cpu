@@ -43,6 +43,8 @@ known_imports_dict = {
         "cpu/control-logic.circ",
         "cpu/imm-gen.circ",
         "cpu/regfile.circ",
+        "cpu/partial-load.circ",
+        "cpu/partial-store.circ",
     ],
     "harnesses/alu-harness.circ": [
         "cpu/alu.circ",
@@ -71,6 +73,9 @@ known_imports_dict = {
     ],
     "tests/unit-partial-load/*.circ": [
         "cpu/partial-load.circ",
+    ],
+    "tests/unit-partial-store/*.circ": [
+        "cpu/partial-store.circ",
     ],
     "tests/integration-*/*.circ": [
         "harnesses/cpu-harness.circ",
