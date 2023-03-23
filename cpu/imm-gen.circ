@@ -482,7 +482,6 @@
       <a name="output" val="true"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="2" loc="(650,160)" name="Multiplexer"/>
     <comp lib="5" loc="(1010,90)" name="Text">
       <a name="text" val="OUTPUT from your circuit"/>
     </comp>
@@ -545,17 +544,13 @@
     <wire from="(460,630)" to="(480,630)"/>
     <wire from="(470,340)" to="(470,350)"/>
     <wire from="(470,340)" to="(500,340)"/>
-    <wire from="(510,390)" to="(700,390)"/>
     <wire from="(520,330)" to="(580,330)"/>
-    <wire from="(520,460)" to="(580,460)"/>
+    <wire from="(520,460)" to="(750,460)"/>
     <wire from="(520,530)" to="(580,530)"/>
     <wire from="(520,580)" to="(580,580)"/>
     <wire from="(520,630)" to="(580,630)"/>
     <wire from="(620,330)" to="(680,330)"/>
-    <wire from="(650,160)" to="(700,160)"/>
-    <wire from="(700,290)" to="(700,390)"/>
-    <wire from="(700,290)" to="(750,290)"/>
-    <wire from="(750,290)" to="(750,400)"/>
+    <wire from="(750,400)" to="(750,460)"/>
     <wire from="(750,400)" to="(760,400)"/>
     <wire from="(920,100)" to="(1110,100)"/>
     <wire from="(920,100)" to="(920,140)"/>
