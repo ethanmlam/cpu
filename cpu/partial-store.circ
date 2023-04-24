@@ -285,10 +285,6 @@
       <a name="fanout" val="1"/>
       <a name="incoming" val="32"/>
     </comp>
-    <comp lib="0" loc="(1450,560)" name="Tunnel">
-      <a name="label" val="SBMask"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="0" loc="(1450,680)" name="Tunnel">
       <a name="label" val="SHMask"/>
       <a name="width" val="4"/>
@@ -297,6 +293,10 @@
       <a name="label" val="Instruction"/>
       <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1460,560)" name="Tunnel">
+      <a name="label" val="SBMask"/>
+      <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1510,870)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -824,7 +824,7 @@
     <wire from="(1380,730)" to="(1390,730)"/>
     <wire from="(1380,950)" to="(1380,980)"/>
     <wire from="(1380,980)" to="(1410,980)"/>
-    <wire from="(1400,560)" to="(1450,560)"/>
+    <wire from="(1400,560)" to="(1460,560)"/>
     <wire from="(1400,680)" to="(1450,680)"/>
     <wire from="(1400,910)" to="(1610,910)"/>
     <wire from="(1410,610)" to="(1420,610)"/>
