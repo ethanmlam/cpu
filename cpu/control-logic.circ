@@ -928,7 +928,7 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(160,1200)" name="Constant">
-      <a name="value" val="0x5"/>
+      <a name="value" val="0x0"/>
       <a name="width" val="7"/>
     </comp>
     <comp lib="0" loc="(160,1270)" name="Constant">
